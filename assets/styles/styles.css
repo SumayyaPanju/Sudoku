@@ -37,3 +37,27 @@ body{
 label {
     color: #1c1414; 
 }
+
+
+/*Font styling*/
+h1, h2{
+    font-family:'Protest Strike', 'Franklin Gothic Medium';
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1{
+    font-size: 300%;
+}
+
+h2{
+    font-size: 150%;
+}
+
+.options, a {
+    font-family:  'Patrick hand', 'Calibri', 'Trebuchet MS';
+    letter-spacing: 2px;
+    font-size: 120%;
+    text-decoration: none;
+}
