@@ -91,3 +91,34 @@ input[type=radio] {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
+/*Home container*/
+#home-container{
+    border-width: 8px;
+    border-style: solid;
+    height: max-content;
+    width: 60%;
+}
+
+.options{
+    text-align: center;
+}
+
+.buttons-links{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons-text{
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 18px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    font-weight: bolder;
+}
+fieldset{
+    border: none;
+}
