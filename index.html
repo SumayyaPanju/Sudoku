@@ -1,12 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/styles.css" />
     <title>Sudoku</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- Head section -->
+    <h1>Sudoku</h1>
+    <!-- Body section -->
+    <div id="home-container">
+      <!-- Difficulty options -->
+      <div class="options">
+        <fieldset>
+          <legend><h2>Difficulty level:</h2></legend>
+          <label for="easy">
+            <input
+              type="radio"
+              id="easy"
+              name="difficulty-levels"
+              value="easy"
+            />Easy</label
+          >
+          <label for="medium">
+            <input
+              type="radio"
+              id="medium"
+              name="difficulty-levels"
+              value="medium"
+              checked
+            />Medium</label
+          >
+          <label for="hard">
+            <input
+              type="radio"
+              id="hard"
+              name="difficulty-levels"
+              value="hard"
+            />Hard</label
+          >
+        </fieldset>
+      </div>
+      <!-- Time options -->
+      <div class="options">
+        <fieldset>
+          <legend><h2>Time Limit:</h2></legend>
+          <label for="ten-mins">
+            <input
+              type="radio"
+              id="ten-mins"
+              name="time-limits"
+              value="ten-mins"
+            />10:00</label
+          >
+          <label for="five-mins">
+            <input
+              type="radio"
+              id="five-mins"
+              name="time-limits"
+              value="five-mins"
+              checked
+            />05:00</label
+          >
+          <label for="three-mins">
+            <input
+              type="radio"
+              id="three-mins"
+              name="time-limits"
+              value="three-mins"
+            />03:00</label
+          >
+        </fieldset>
+      </div>
+      <!-- Theme options -->
+      <div class="options">
+        <fieldset>
+          <legend><h2>Theme:</h2></legend>
+          <label for="light-mode">
+            <input
+              type="radio"
+              id="light-mode"
+              name="theme"
+              value="light-mode"
+              checked
+            />Light mode</label
+          >
+          <label for="dark-mode">
+            <input
+              type="radio"
+              id="dark-mode"
+              name="theme"
+              value="dark-mode"
+            />Dark mode</label
+          >
+        </fieldset>
+      </div>
+      <!-- Button sections -->
+      <a href="board.html" class="buttons-links"
+        ><div class="buttons-text">Generate board</div></a
+      >
+      <a href="rules.html" class="buttons-links"
+        ><div class="buttons-text">How to play!</div></a
+      >
+    </div>
     <script src="assets/scripts/main.js"></script>
-</body>
+  </body>
 </html>
