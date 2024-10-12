@@ -37,6 +37,7 @@ function darkThemeActivation() {
       button.style.color = "#1c1414";
     });
   });
+  console.clear()
   console.log("Dark mode activated");
 }
 
@@ -67,6 +68,7 @@ function lightThemeActivation() {
       button.style.color = "";
     });
   });
+  console.clear()
   console.log("Light mode activated");
 }
 
