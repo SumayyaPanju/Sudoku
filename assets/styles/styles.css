@@ -2,3 +2,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');/*Heading*/
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');/*Instructions*/
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');/*Numbers*/
+
+/*Wild card*/
+* {
+    margin:0;
+    padding:0;
+}
+
+/*Theme*/
+
+body{
+    background-color: #ECDFCC;
+    color: #2c795f;
+}
+
+#home-container{
+    background-color: #ECDFCC;
+    border-color: #2c795f;
+
+}
+
+.buttons-text{
+    background-color: #1c1414;
+    border-color: #2c795f;
+    color: #ECDFCC;
+}
+
+.buttons-text:hover{
+    background-color: #ECDFCC;
+    border-color: #2c795f; 
+    color: #1c1414;
+}  
+
+label {
+    color: #1c1414; 
+}
