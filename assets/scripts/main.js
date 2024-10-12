@@ -39,3 +39,33 @@ function darkThemeActivation() {
   });
   console.log("Dark mode activated");
 }
+
+//Switch back to light mode - deactivate dark mode. 
+function lightThemeActivation() {
+    myBody.style.backgroundColor = "";
+    homeContainer.style.backgroundColor = "";
+  
+    for (let item of buttonsText) {
+      item.style.backgroundColor = "";
+      item.style.color = "";
+    }
+  
+    for (let item of labels) {
+      item.style.color = "";
+    }
+  
+    Array.from(buttonsText).forEach((button) => {
+      // On Hover
+      button.addEventListener("mouseenter", () => {
+        button.style.backgroundColor = "";
+        button.style.color = "";
+      });
+  
+      // Off hover
+      button.addEventListener("mouseleave", () => {
+        button.style.backgroundColor = "";
+        button.style.color = "";
+      });
+    });
+    console.log("Light mode activated");
+  }
